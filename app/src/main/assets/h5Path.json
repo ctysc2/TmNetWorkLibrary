@@ -1,0 +1,269 @@
+{
+  "pathList": [
+    {
+      "code": 1001,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/home/Home",
+      "name": "公开课首页"
+    },
+    {
+      "code": 1002,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/courseDetail/{id}/{userProductId}",
+      "name": "公开课课程详情页(课程中心进入)"
+    },
+    {
+      "code": 1003,
+      "useNewDomain":1,
+      "path": "tms-h5-front/courseDetail/{id}/null?campaignId={id}",
+      "name": "公开课活动课程详情页"
+    },
+    {
+      "code": 1004,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/marketing",
+      "name": "公开课活动详情页"
+    },
+    {
+      "code": 1005,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/vipCardDetail",
+      "name": "会员卡h5"
+    },
+    {
+      "code": 1006,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/learningCoinZone",
+      "name": "学习币"
+    },
+    {
+      "code": 1007,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/myInvoice",
+      "name": "我的发票"
+    },
+    {
+      "code": 1008,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/shoppingCart",
+      "name": "我的购物车"
+    },
+    {
+      "code": 1009,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/myCertificate",
+      "name": "我的证书"
+    },
+    {
+      "code": 1010,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/recentlyViewed",
+      "name": "最近浏览"
+    },
+    {
+      "code": 1011,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/globalSearch",
+      "name": "App首页全局搜索"
+    },
+    {
+      "code": 1012,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/myOrder",
+      "name": "我的订单"
+    },
+    {
+      "code": 1013,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/myCoupon",
+      "name": "我的抵用劵"
+    },
+    {
+      "code": 1014,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/home/zhiBo?showHeader=1",
+      "name": "直播"
+    },
+    {
+      "code": 1015,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/globalSearch",
+      "name": "全局搜索"
+    },
+    {
+      "code": 1016,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/orderDetail",
+      "name": "订单详情"
+    },
+    {
+      "code": 1017,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/logisticInfo",
+      "name": "物流详情"
+    },
+    {
+      "code": 1018,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/askQuestions",
+      "name": "提问详情"
+    },
+    {
+      "code": 1019,
+      "useNewDomain":1,
+      "path": "/tm-mobile-course/planetDetail",
+      "name": "星球详情"
+    },
+    {
+      "code": 2001,
+      "path": "/app-tools-h5/privacyPolicy",
+      "name": "隐私政策"
+    },
+    {
+      "code": 2002,
+      "path": "/app-tools-h5/favorite",
+      "name": "收藏"
+    },
+    {
+      "code": 3001,
+      "useNewDomain":1,
+      "path": "/subject-zm-h5-front/recruitView",
+      "name": "招募先锋"
+    },
+    {
+      "code": 3002,
+      "useNewDomain":1,
+      "path": "/subject-zm-h5-front/applyForRecruit",
+      "name": "申请成为招募先锋"
+    },
+    {
+      "code": 3003,
+      "useNewDomain":1,
+      "path": "/subject-zm-h5-front/patientRecruitment",
+      "name": "受试者招募"
+    },
+    {
+      "code": 3004,
+      "useNewDomain":1,
+      "path": "/subject-zm-h5-front/projectDetail",
+      "name": "招募项目详情页"
+    },
+    {
+      "code": 3005,
+      "useNewDomain":1,
+      "path": "/subject-zm-h5-front/assistant",
+      "name": "招募助手"
+    },
+    {
+      "code": 3006,
+      "useNewDomain":1,
+      "path": "/tm-mobile-course/mgmUserFission",
+      "name": "分享大使"
+    },
+    {
+      "code": 3007,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/qaDetail",
+      "name": "问答详情"
+    },
+    {
+      "code": 3008,
+      "path": "https://trialos.feishu.cn/docs/doccnsRYtsS8vPpUr4APdc7cvlf",
+      "name": "飞书抵用券使用方法"
+    },
+    {
+      "code": 3009,
+      "path": "/cm-h5-front/star/upComing",
+      "name": "问答详情"
+    },
+    {
+      "code": 3010,
+      "path": "/app-tools-h5/fs-preview",
+      "name": "h5文件预览"
+    },
+    {
+      "code": 3011,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/applyCertification",
+      "name": "申请认证"
+    },
+    {
+      "code": 3012,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/logisticsMap",
+      "name": "地图物流详情"
+    },
+    {
+      "code": 3013,
+      "useNewDomain":1,
+      "path": "/subject-zm-h5-front/registrationForm",
+      "name": "招募报名表"
+    },
+    {
+      "code": 3014,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/livePlatform",
+      "name": "直播"
+    },
+    {
+      "code": 3015,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/courseDetail",
+      "name": "公开课"
+    },
+    {
+      "code": 3016,
+      "useNewDomain":1,
+      "path": "/tms-h5-front/topicDetail",
+      "name": "话题详情"
+    },
+    {
+      "code": 3017,
+      "useNewDomain":1,
+      "path": "/subject-zm-h5-front/lifeDiary",
+      "name": "生命日记"
+    },
+    {
+      "code": 3018,
+      "useNewDomain":1,
+      "path": "/subject-zm-h5-front/lifeDiary/uploadData",
+      "name": "生命日记上传资料"
+    },
+    {
+      "code": 3019,
+      "useNewDomain":1,
+      "path": "/subject-zm-h5-front/lifeDiary/remarkData",
+      "name": "标记资料"
+    },
+    {
+      "code": 3020,
+      "useNewDomain":1,
+      "path": "/site-center-app/centerDetail",
+      "name": "研究中心详情"
+    },
+    {
+      "code": 3021,
+      "useNewDomain":1,
+      "path": "/site-center-app/gongshiExpDetailPage",
+      "name": "公示试验"
+    },
+    {
+      "code": 3022,
+      "useNewDomain":0,
+      "path": "/subject-zm-h5-front/applyForRecruit?pioneerSource=ANDROID",
+      "name": "招募先锋报名"
+    },
+    {
+      "code": 3023,
+      "useNewDomain":0,
+      "path": "/cm-h5-front/star/userManagement",
+      "name": "星球管理"
+    },
+    {
+      "code": 3024,
+      "useNewDomain":0,
+      "path": "/ad/followUp?action=projectDetail",
+      "name": "h5跳转小程序项目详情"
+    }
+  ]
+}

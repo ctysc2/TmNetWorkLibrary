@@ -1,0 +1,142 @@
+{
+  "domainList": [
+    {
+      "name": "trialOS",
+      "dev": "https://dev.trialos.com",
+      "test": "http://trialos.test.com",
+      "product": "https://www.trialos.com.cn",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat.trialos.com.cn"
+    },
+    {
+      "name": "newDomain",
+      "dev": "https://dev.trialos.com",
+      "test": "https://test.itrialos.com",
+      "product": "https://www.itrialos.com",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat.itrialos.com.cn"
+    },
+    {
+      "name": "eTime",
+      "dev": "https://trialos.dev.com",
+      "test": "http://master.test.com",
+      "product": "https://www.trialos.com.cn",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat.trialos.com.cn"
+    },
+    {
+      "name": "file",
+      "dev": "https://dev.trialos.com",
+      "test": "http://file.test.com",
+      "product": "https://file.trialos.com.cn",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat-file.trialos.com.cn"
+    },
+    {
+      "name": "sms",
+      "dev": "https://trialos.dev.com",
+      "test": "http://trialos.test.com",
+      "product": "https://www.trialos.com.cn",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat.trialos.com.cn"
+    },
+    {
+      "name": "openClassH5",
+      "dev": "https://trialos.dev.com",
+      "test": "http://trialos.test.com",
+      "product": "https://www.trialos.com.cn",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat.trialos.com.cn"
+    },
+    {
+      "name": "appMenuH5",
+      "dev": "https://trialos.dev.com",
+      "test": "http://trialos.test.com",
+      "product": "https://www.trialos.com.cn",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat.trialos.com.cn"
+    },
+    {
+      "name": "trialpal",
+      "dev": "https://trialos.dev.com",
+      "test": "https://test.trialos.com",
+      "product": "https://www.trialos.com.cn",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat.trialos.com.cn"
+    },
+    {
+      "name": "tms",
+      "dev": "https://dev.trialos.com",
+      "test": "http://trialos.test.com",
+      "product": "https://www.trialos.com.cn",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat.trialos.com.cn"
+    },
+    {
+      "name": "ssu",
+      "dev": "https://trialos.dev.com",
+      "test": "http://trialos.test.com",
+      "product": "https://www.trialos.com.cn",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat.trialos.com.cn"
+    },
+    {
+      "name": "bizworkspace",
+      "dev": "https://trialos.dev.com",
+      "test": "http://master.test.com",
+      "product": "https://www.trialos.com.cn",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat.trialos.com.cn"
+    },
+    {
+      "name": "ccp",
+      "dev": "https://trialos.dev.com",
+      "test": "http://master.test.com",
+      "product": "https://www.trialos.com.cn",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat.trialos.com.cn"
+    },
+    {
+      "name": "wx",
+      "dev": "https://mp.weixin.qq.com",
+      "test": "https://mp.weixin.qq.com",
+      "product": "https://mp.weixin.qq.com",
+      "demo": "",
+      "uat": "https://mp.weixin.qq.com"
+    },
+    {
+      "name": "H5LoginURL",
+      "dev": "http://tenant.dev.com/mobile",
+      "test": "http://tenant.test.com/mobile?confSerialNo=ML201912300077",
+      "uat": "https://m-uat.trialos.com.cn?confSerialNo=ML202210180035&appId=trialnet-zm",
+      "demo": "https://m-demo.trialos.com?confSerialNo=ML202210180035",
+      "product": "https://m.trialos.com.cn?confSerialNo=ML202210180005&appId=trialnet-zm"
+    },
+    {
+      "name": "checkVersion",
+      "dev": "http://api.bq04.com",
+      "test": "http://api.bq04.com",
+      "uat": "http://api.bq04.com",
+      "demo": "http://api.bq04.com",
+      "product": "https://www.trialos.com.cn"
+    },
+    {
+      "name": "tenant",
+      "dev": "http://tenant.dev.com",
+      "test": "http://tenant.test.com",
+      "product": "https://www.trialos.com.cn",
+      "demo": "https://demo.trialos.com",
+      "uat": "https://uat.trialos.com.cn"
+    },
+    {
+      "name": "filter",
+      "dev": "http://textfilter.xiaohuaerai.com",
+      "test": "http://textfilter.xiaohuaerai.com",
+      "product": "https://textfilter.xiaohuaerai.com",
+      "demo": "https://textfilter.xiaohuaerai.com",
+      "uat": "https://textfilter.xiaohuaerai.com"
+    }
+
+
+  ]
+}

@@ -1,0 +1,1488 @@
+{
+  "urlList": [
+    {
+      "name": "getLiveList",
+      "app": "tms",
+      "path": "/api/trialos-service/v3/course/getLiveList",
+      "method": "GET",
+      "isCache": true
+    },
+    {
+      "name": "testCheckVersion",
+      "app": "checkVersion",
+      "path": "/apps/latest/{bundleId}?api_token=dd1bdb456f8518ab91ca92148d85fe7e",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "productCheckVersion",
+      "app": "checkVersion",
+      "path": "/api/omp-service/app/getNewAppVersion",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "updateDownLoadCount",
+      "app": "checkVersion",
+      "path": "/api/omp-service/app/updateDownLoadCount",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "checkAccountConfirm",
+      "app": "trialOS",
+      "path": "/api/csp-service/accountConfirm/checkAccountConfirm",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "saveAccountConfirm",
+      "app": "trialOS",
+      "path": "/api/csp-service/accountConfirm/saveAccountConfirm",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getDocConfigDetail",
+      "app": "trialOS",
+      "path": "/api/omp-service/docConfig/getDocConfigDetail",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getAccountInfoByToken",
+      "app": "trialOS",
+      "path": "/api/sso-web/sso/sso/getAccountInfoByToken",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getApplicationList",
+      "app": "trialOS",
+      "path": "/api/trialos-service/v3/applicationCenter/getApplicationList",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "listTenantAndSofts",
+      "app": "trialOS",
+      "path": "/api/csp-service/trialos/listTenantAndSofts",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "ccpListTenantAndSofts",
+      "app": "trialOS",
+      "path": "/api/ccp-web/mobile/v2/common/listTenantAndSofts",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getSiteAppMenu",
+      "app": "trialOS",
+      "path": "/api/site-common-service/common/app/tenants/menu",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "selectEnvironment",
+      "app": "trialOS",
+      "path": "/api/sso-web/sso/sso/selectEnvironment4Trace",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "taskList",
+      "app": "trialOS",
+      "path": "/api/eventlake-web/task/v1/getTaskListAsExecutor",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getPersonInfoByAccountId",
+      "app": "trialOS",
+      "path": "/api/master-data-service/person/getPersonInfoByAccountId/{accountId}",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getPioneerInfoByAccountId",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/pioneer/getPioneerInfoByAccountId",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getSubjectIdWithAccount",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/subject/getSubjectIdWithAccount",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "membershipByCondition",
+      "app": "trialOS",
+      "path": "/api/tms-client/api/membership/getByCondition",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getAccountPreference",
+      "app": "trialOS",
+      "path": "/api/trialos-service/v3/preference/getAccountPreference",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "bindAccountPreference",
+      "app": "trialOS",
+      "path": "/api/trialos-service/v3/preference/bindAccountPreference?preferenceId={preferenceId}",
+      "method": "PUT",
+      "isCache": false
+    },
+    {
+      "name": "getPreferenceList",
+      "app": "trialOS",
+      "path": "/api/trialos-service/v3/preference/getPreferenceList",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "saveSuggestion",
+      "app": "trialOS",
+      "path": "/api/starUser/commitSuggestion",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "modifyPassword",
+      "app": "trialOS",
+      "path": "/api/sso-web/sso/login/{accountId}/modifyPassword",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getTrainCourse",
+      "app": "trialOS",
+      "path": "/api/ecollege-service/api/Subscribe/user/getTrainCourse",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getAccountProperty",
+      "app": "trialOS",
+      "path": "/api/csp-service/accounts/getAccountProperty?accountId={accountId}",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "generateVerificationCode",
+      "app": "trialOS",
+      "path": "/api/sso-web/sso/sso/sendSmsCodeWithCaptchaCheck",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "cancelAccount",
+      "app": "trialOS",
+      "path": "/api/csp-service/accounts/cancelAccount",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getAdByCode",
+      "app": "trialOS",
+      "path": "/api/trialos-service/os/bannerManage/getAdByCode",
+      "method": "GET",
+      "isCache": true
+    },
+    {
+      "name": "appManageLoadProductCategory",
+      "app": "trialOS",
+      "path": "/api/tms-client/api/mobileManage/appManageLoadProductCategory",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getPreferenceCourseCategoryList",
+      "app": "trialOS",
+      "path": "/api/trialos-service/v3/preference/getPreferenceCourseCategoryList",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "appManageGetTopModel",
+      "app": "trialOS",
+      "path": "/api/tms-client/api/mobileManage/appManageGetTopModel",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getMarketingCampaignIdForPreference",
+      "app": "trialOS",
+      "path": "/api/tms-client/api/marketingCampaign/getMarketingCampaignIdForPreference",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getMarketingCampaignDetailForUser",
+      "app": "trialOS",
+      "path": "/api/tms-client/api/marketingCampaign/getMarketingCampaignDetailForUser",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getTopPopLectureInfo",
+      "app": "trialOS",
+      "path": "/api/tms-client/api/trialos/product/getTopPopLectureInfo",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getRankProductList",
+      "app": "trialOS",
+      "path": "/api/tms-client/api/trialos/product/getRankProductList",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "saveLocal",
+      "app": "trialOS",
+      "path": "/api/ccp-web/mobile/v2/files/local/save/{fileId}",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "downloadWord",
+      "app": "trialOS",
+      "path": "/api/ccp-web/mobile/v2/common/downloadword",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "downloadFile",
+      "app": "trialOS",
+      "path": "/api/ccp-web/mobile/v2/lettersend/downLoadFile",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "searchPublishedChannelArticle",
+      "app": "trialOS",
+      "path": "/api/trialos-service/os/articleManage/searchPublishedChannelArticle",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "queryNoticeList",
+      "app": "trialOS",
+      "path":"/api/site-service/notice/queryNoticeList",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "loadProductList",
+      "app": "trialOS",
+      "path":"/api/tms-client/api/CourseCenter/LoadProductList",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "browseAdd",
+      "app": "trialOS",
+      "path":"/api/trialos-service/os/browse/add",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getPreferenceAppList",
+      "app": "trialOS",
+      "path":"/api/trialos-service/v3/preference/getPreferenceAppList",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getHistoryLiveList",
+      "app": "trialOS",
+      "path":"/api/tms-client/api/trialos/product/getHistoryLiveProductList",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "searchProjectForLocation",
+      "app": "trialOS",
+      "path":"/api/subject-zm-service/project/searchProjectForLocation",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "fileUpload",
+      "app": "file",
+      "path":"/file/upload",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "updatePersonInfo",
+      "app": "trialOS",
+      "path":"/api/master-data-service/person/updatePersonInfo",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getAccountInfoByUnionId",
+      "app": "trialOS",
+      "path":"/api/third-service/wechat/getAccountInfoByUnionId",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "thirdCodeLogin",
+      "app": "trialOS",
+      "path":"/api/third-service/wechat/thirdCodeLogin",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getListAccountByPhone",
+      "app": "trialOS",
+      "path":"/api/sso-web/sso/user/listAccount",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "translate",
+      "app": "trialOS",
+      "path":"/api/ai-translationservice/ai/translate/txt_translate",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "testUrl",
+      "app": "tms",
+      "path":"",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "bindSubjectProjectEnrollCrcBind",
+      "app": "trialOS",
+      "path":"/api/subject-zm-service/crcEnroll/bindSubjectProjectEnrollCrc?subjectProjectEnrollId={id}&crcName={name}&crcMobile={mobile}",
+      "method": "PUT",
+      "isCache": false
+    },
+    {
+      "name": "offlineAppList",
+      "app": "tenant",
+      "path":"/api/omp-service/offlineApp/list",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "offlineAppVersionList",
+      "app": "tenant",
+      "path":"/api/omp-service/offlineApp/version/list",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getProductCategoryList",
+      "app": "trialOS",
+      "path":"/api/tms-client/api/membership/getProductCategoryList",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getFissionCode",
+      "app": "trialOS",
+      "path":"/api/tms-client/api/accountFission/get",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getAccountInfoWithMobile",
+      "app": "trialOS",
+      "path":"/api/third-service/wechat/getAccountInfoWithMobile",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getNickName",
+      "app": "trialOS",
+      "path":"/api/tms-client/api/accountFission/nickName/get",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "updateNickName",
+      "app": "trialOS",
+      "path":"/api/tms-client/api/accountFission/nickName/update",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "textFilter",
+      "app": "filter",
+      "path":"/textfilter",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "showPersonalHome",
+      "app": "trialOS",
+      "path":"/api/starUser/showPersonalHome",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "updatePersonalProfile",
+      "app": "trialOS",
+      "path":"/api/starUser/updatePersonalProfile",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "dynamicList",
+      "app": "trialOS",
+      "path":"/api/starPosts/dynamic/list",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "follow",
+      "app": "trialOS",
+      "path":"/api/starAccount/follow",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "cancelFollow",
+      "app": "trialOS",
+      "path":"/api/starAccount/cancelFollow",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "cancelFollow",
+      "app": "trialOS",
+      "path":"/api/starAccount/cancelFollow",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "followList",
+      "app": "trialOS",
+      "path":"/api/starAccount/followList",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "thumbsUp",
+      "app": "trialOS",
+      "path":"/api/starUser/thumbs-up",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "deleteQa",
+      "app": "trialOS",
+      "path":"/api/starPosts/delete",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "shareWithOther",
+      "app": "trialOS",
+      "path":"/api/starUser/shareWithOther",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getLectureProductInfo",
+      "app": "trialOS",
+      "path":"/api/starUser/shareWithOther",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "browseHistory",
+      "app": "trialOS",
+      "path":"/api/trialos-service/os/browse/getByType",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "currentStarUser",
+      "app": "trialOS",
+      "path":"/api/starUser/getCurrentStarUser",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "showNorms",
+      "app": "trialOS",
+      "path":"/api/starUser/showNorms",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "acceptCommunityNorms",
+      "app": "trialOS",
+      "path":"/api/starUser/acceptCommunityNorms",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "messageList",
+      "app": "trialOS",
+      "path":"/api/starAccount/messageList",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "unreadCount",
+      "app": "trialOS",
+      "path":"/api/starAccount/unreadCount",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "detectContent",
+      "app": "trialOS",
+      "path":"/api/starPosts/detectText",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "detectContent",
+      "app": "trialOS",
+      "path":"/api/starPosts/detectPicture",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "updateLecturerPhotoUrl",
+      "app": "trialOS",
+      "path":"/api/lecturer/updateLecturerPhotoUrl",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "checkCouponHasReceived",
+      "app": "trialOS",
+      "path":"/api/coupon/checkCouponHasReceived",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getAccountCouponSendList",
+      "app": "trialOS",
+      "path":"/api/coupon/getAccountCouponSend",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "receiveCoupon",
+      "app": "trialOS",
+      "path":"/api/coupon/receiveCoupon",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "updateBackgroundImage",
+      "app": "trialOS",
+      "path":"/api/starUser/updateBackgroundImage",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "hasUnreadMessageInfo",
+      "app": "trialOS",
+      "path":"/api/sysMessage/hasUnreadMessageInfo",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getMessageInfo",
+      "app": "trialOS",
+      "path":"/api/sysMessage/getMessageInfo",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "readMessageMark",
+      "app": "trialOS",
+      "path":"/api/sysMessage/readMessageMark",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "reportStarUser",
+      "app": "trialOS",
+      "path":"/api/star/reportStarUser",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "isForbiddenWord",
+      "app": "trialOS",
+      "path":"/api/star/isForbiddenWord",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getMobile",
+      "app": "trialOS",
+      "path":"/api/trialos-service/oneClickLogin/getMobile",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "accountLoginCreate",
+      "app": "trialOS",
+      "path":"/api/sso-web/sso/sso/accountLoginCreate",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "pendingList",
+      "app": "trialOS",
+      "path":"/api/star/pending/list",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "appealVerify",
+      "app": "trialOS",
+      "path":"/api/star/pending/appeal/verify",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "appeal",
+      "app": "trialOS",
+      "path":"/api/star/pending/appeal",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "videoApproveQuery",
+      "app": "trialOS",
+      "path":"/api/starPosts/videoReview/posts/query",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "identityList",
+      "app": "trialOS",
+      "path":"/api/starIdentity/listWithoutUserNum",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "identityFlag",
+      "app": "trialOS",
+      "path":"/api/starUser/identityFlag",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "setIdentity",
+      "app": "trialOS",
+      "path":"/api/starUser/setIdentity",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "setIdentity",
+      "app": "trialOS",
+      "path":"/api/starUser/setIdentity",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "updateInfo",
+      "app": "trialOS",
+      "path":"/api/starUser/updateInfo",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "area",
+      "app": "trialOS",
+      "path": "/api/omp-service/getCountries",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "allStar",
+      "app": "trialOS",
+      "path": "/api/starBody/allView",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "joinStar",
+      "app": "trialOS",
+      "path": "/api/starBody/join/{starbodyId}",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "starContent",
+      "app": "trialOS",
+      "path": "/api/starBody/contentPage/{id}",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "qaDetail",
+      "app": "trialOS",
+      "path": "/api/starPosts/askQuestion/detail",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "personalTop",
+      "app": "trialOS",
+      "path": "/api/starPosts/personalTop",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "feature",
+      "app": "trialOS",
+      "path": "/api/starPosts/featured",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "reportContent",
+      "app": "trialOS",
+      "path": "/api/star/report/content",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getHuanxinAccountsByAccountIds",
+      "app": "trialOS",
+      "path":"/api/third-service/huanxin/getHuanxinAccountsByAccountIds",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "userInitFaceVerify",
+      "app": "tms",
+      "path": "/api/tms-client/api/User/userInitFaceVerify",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "groupUserInfo",
+      "app": "tms",
+      "path": "/api/tms-client/api/chatGroup/accountInfoList",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "updateGroup",
+      "app": "tms",
+      "path": "/api/tms-client/api/chatGroup/update",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "deleteGroup",
+      "app": "tms",
+      "path": "/api/tms-client/api/chatGroup/delete",
+      "method": "DELETE",
+      "isCache": false
+    },
+    {
+      "name": "synchronsize",
+      "app": "tms",
+      "path": "/api/tms-client/api/chatGroup/hxGroup/synchronize",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "listByHxGroupId",
+      "app": "tms",
+      "path": "/api/tms-client/api/chatGroup/listByHxGroupId",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "accountInfoListQuery",
+      "app": "tms",
+      "path": "/api/tms-client/api/chatGroup/accountInfoListQuery",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "followAndBefollowList",
+      "app": "tms",
+      "path": "/api/tms-client/api/starAccount/followAndBefollowList",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "starAccountList",
+      "app": "tms",
+      "path": "/api/tms-client/api/starAccount/list",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "starBodyList",
+      "app": "tms",
+      "path": "/api/tms-client/api/starAccount/starBodyList",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "zmProjectList",
+      "app": "tms",
+      "path": "/api/subject-zm-service/project/searchProjectListByProjectOrIndication",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "searchLiveList",
+      "app": "tms",
+      "path": "/api/live-service/vcloud/live/getLiveList",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getProjectCombinationInfo",
+      "app": "tms",
+      "path": "/api/subject-zm-service/project/getProjectCombinationInfo",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getLiveDetail",
+      "app": "tms",
+      "path": "/api/live-service/vcloud/live/getLiveDetail",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getOpenCourseDetail",
+      "app": "tms",
+      "path": "/api/mobileManage/appManageGetOpenCourseDetail",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getOpenCourseDetail",
+      "app": "tms",
+      "path": "/api/mobileManage/appManageGetOpenCourseDetail",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "linkProject",
+      "app": "tms",
+      "path": "/api/chatGroup/linkProject",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "subjectForProject",
+      "app": "tms",
+      "path": "/api/subject-zm-service/projectSubject/projectSubjectSearchForProject",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "sendCustomNoticeMessage",
+      "app": "tms",
+      "path": "/api/chatGroup/sendCustomNoticeMessage",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "remarkSave",
+      "app": "tms",
+      "path": "/api/chatGroup/remark/save",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "remarkList",
+      "app": "tms",
+      "path": "/api/chatGroup/remark/list",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "addGroupMember",
+      "app": "tms",
+      "path": "/api/chatGroup/hxGroup/addMember",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "chatMessageList",
+      "app": "tms",
+      "path": "/api/chatMessage/list",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "fissionSharing",
+      "app": "tms",
+      "path": "/api/accountFission/sharing",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "saveSearchLog",
+      "app": "tms",
+      "path": "/api/searchLog/save",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "lifeDiaryIsAgree",
+      "app": "tms",
+      "path": "/api/starAccount/lifeDiary/isAgree",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "lifeDiaryAgree",
+      "app": "tms",
+      "path": "/api/starAccount/lifeDiary/agree",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "zmTag",
+      "app": "tms",
+      "path": "/api/tag/zm/tag/list",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "subjectListByEnrollAccountId",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/subjectInfo/subjectListByEnrollAccountId",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "msgMarkList",
+      "app": "trialOS",
+      "path": "/api/chat/msgMark/list",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "checkAccountRoles",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/subjectInfo/checkAccountRoles",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "saveFavorite",
+      "app": "trialOS",
+      "path": "/api/trialos-service/favorite/saveAccountFavoriteRef",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "deleteFavorite",
+      "app": "trialOS",
+      "path": "/api/trialos-service/favorite/deleteAccountFavoriteRef",
+      "method": "DELETE",
+      "isCache": false
+    },
+    {
+      "name": "getFavorite",
+      "app": "trialOS",
+      "path": "/api/trialos-service/favorite/getFavoriteByBusinessIds",
+      "method": "DELETE",
+      "isCache": false
+    },
+    {
+      "name": "statClickCount",
+      "app": "trialOS",
+      "path": "/api/trialos-service/os/bannerManage/statClickCount",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "searchInstitution",
+      "app": "trialOS",
+      "path": "/api/site-cooperation-service/trialos/searchInstitution",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "selectTagList",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/project/list/selectTagList",
+      "method": "GET",
+      "isCache": true
+    },
+    {
+      "name": "blankProject",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/project/blankProjectId/query",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "cityList",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/project/getProjectInstitutionProviceAndCityList",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getProjectTagAccountList",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/projectTag/getProjectTagAccountList",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getProjectTagMap",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/projectTag/getProjectTagWithHeadCharMap",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "resetProjectTagAccount",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/projectTag/resetProjectTagAccount",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "zmConsultQuery",
+      "app": "tms",
+      "path": "/api/chatGroup/zmConsultQuery",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "askQuestionInfo",
+      "app": "tms",
+      "path": "/askQuestion/info",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "resolution",
+      "app": "tms",
+      "path": "/api/starPosts/link/resolution",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "topicList",
+      "app": "tms",
+      "path": "/api/starAccount/topicList",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "publish",
+      "app": "tms",
+      "path": "api/starPosts/askQuestion/publish",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "commentList",
+      "app": "tms",
+      "path": "api/starPosts/comment/list",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "replyList",
+      "app": "tms",
+      "path": "api/starPosts/commentComment/list",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "commentPublish",
+      "app": "tms",
+      "path": "api/starPosts/comment/publish",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "doPwdStrategyGetByUserId",
+      "app": "trialOS",
+      "path": "api/econfig-web/notoken/doPwdStrategyGetByUserId",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "checkPioneerOne",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/pioneerV2/checkPioneerOne",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getEnableSubjectEnrollForm",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/formConfig/getEnableSubjectEnrollForm",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "querySubjectState",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/config/querySubjectState",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "textDetail",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/formConfig/textDetail",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "listSubject",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/subjectV2/listSubject",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "listSubjectItem",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/subjectV2/listSubjectItem",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "subjectDetailAndProject",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/subjectV2/subjectDetailAndProject",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "subjectFileListV2",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/subjectInfo/subjectFileListV2",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "queryOcrAndNlpInfo",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/ocr/queryOcrAndNlpInfo",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "subjectFileUpdate",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/subjectInfo/subjectFileUpdate",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "treatmentList",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/subjectForm/treatment/list",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "subjectRemarkList",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/subjectRemark/list",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "addSubjectRemark",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/subjectRemark/add",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "subjectFileBatchSave",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/subjectInfo/subjectFileBatchSave",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getProgressList",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/pioneerV2/getProgressList",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "findEnrollRecordList",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/projectV2/findEnrollRecordList",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "findSubjectOwnerWechatUrlBySubjectIdV2",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/subjectInfo/findSubjectOwnerWechatUrlBySubjectIdV2",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "queryAllProjectAlias",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/project/queryAllProjectAlias",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "queryAllProjectAlias",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/project/queryAllProjectAlias",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "queryPioneerAuthInfo",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/v1/pioneerConfig/query",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "pioneerConfigGroup",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/v1/pioneerConfig/group/query",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "favoriteProjectList",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/project/getFavoriteProjectList",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "fastMatchTemplate",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/v1/custom/template/query",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "queryVirtualSubjectPage",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/patient/queryVirtualSubjectPage",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "addVirtualSubject",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/patient/saveVirtualSubject",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "saveFileToForm",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/subjectForm/saveFileToForm",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "getProjectMatch",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/projectV2/getProjectMatch",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "materialDescList",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/materialDesc/list",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "triggerAllProjectMatch",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/config/triggerAllProjectMatch",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "queryMatchProjectById",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/config/queryMatchProjectById",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "filterSelectData",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/filter/filterSelectData/query",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "mdmDictByOid",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/filter/mdmDictByOid",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "filterResultShow",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/filterResultShow/list",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "queryMainRuleConfig",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/v1/rule/queryMainRuleConfig",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "subjectFileDelete",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/subjectInfo/subjectFileDelete",
+      "method": "DELETE",
+      "isCache": false
+    },
+    {
+      "name": "firstLoginAppTime",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/pioneerV2/firstLoginAppTime",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "afterUpdateVirtualTime",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/patient/afterUpdateVirtualTime",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "totalAmount",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/pioneer/settlement/totalAmount",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "settlementList",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/pioneer/settlement/list",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "updateTaskStatus",
+      "app": "trialOS",
+      "path": "api/eventlake-web/task/v1/updateTaskStatus",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "amountList",
+      "app": "trialOS",
+      "path": "api/subject-zm-service/pioneer/settlement/amountlist",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "testTagList",
+      "app": "trialOS",
+      "path": "/api/mds/dict/getDictEntryListByCode",
+      "method": "GET",
+      "isCache": true
+    },
+    {
+      "name": "pioneerAccountInfo",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/pioneerV2/getByAccountId",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "queryUserHeadImageById",
+      "app": "trialOS",
+      "path": "/api/third-service/userHead/queryUserHeadImageById",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "uploadUserHeadImage",
+      "app": "trialOS",
+      "path": "/api/third-service/userHead/uploadUserHeadImage",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "getDetailById",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/pioneerV2/getDetailById",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "myPioneerList",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/pioneerV2/myPioneerList",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "unreadQuantity",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/pioneerProjectMsg/unreadQuantity",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "projectMsgList",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/pioneerProjectMsg/list",
+      "method": "POST",
+      "isCache": false
+    },
+    {
+      "name": "projectMsgDetail",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/pioneerProjectMsg/projectChangeMsg/detail",
+      "method": "GET",
+      "isCache": false
+    },
+    {
+      "name": "projectSubjectList",
+      "app": "trialOS",
+      "path": "/api/subject-zm-service/pioneerProjectMsg/projectChangeMsg/subjectList",
+      "method": "GET",
+      "isCache": false
+    }
+  ]
+}

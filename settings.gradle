@@ -1,0 +1,3 @@
+include ':app',':tmnetwork'
+
+rootProject.name = "TmNetWorkLibrary"
