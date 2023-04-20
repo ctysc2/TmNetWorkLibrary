@@ -96,26 +96,20 @@ public class NetWorkConfigUtil {
             for(int j = 0;j<hostConfigEntity.getDomainList().size();j++){
                 HostConfigEntity.DataEntity hostEntity = hostConfigEntity.getDomainList().get(j);
                 if(hostEntity.getName().equals(name)){
-                    String env = PreferenceUtils.getPrefString(TmsLibraryApp.getInstances(),Const.KEY_ENVIRMENT,"uat");
-                    if(TmsLibraryApp.getEnv().equals("product")){
-                        return AppUtils.getUrlConfig();
-                    }else{
-                        switch (env){
-                            case "test":
-                                return  hostEntity.getTest();
-                            case "uat":
-                            default:
-                                return  hostEntity.getUat();
-
-
-                        }
+                    String env = TmsLibraryApp.getEnv();
+                    switch (env){
+                        case "test":
+                            return  hostEntity.getTest();
+                        case "uat":
+                            return  hostEntity.getUat();
+                        case "product":
+                        default:
+                            return  hostEntity.getProduct();
                     }
-
                 }
             }
         }
         return  "";
-
     }
 
     public static String getBaseUrlByApiName(String name){
@@ -132,17 +126,15 @@ public class NetWorkConfigUtil {
                         for(int j = 0;j<hostConfigEntity.getDomainList().size();j++){
                             HostConfigEntity.DataEntity hostEntity = hostConfigEntity.getDomainList().get(j);
                             if(hostEntity.getName().equals(apiEntity.getApp())){
-                                String env = PreferenceUtils.getPrefString(TmsLibraryApp.getInstances(),Const.KEY_ENVIRMENT,"uat");
-                                if(TmsLibraryApp.getEnv().equals("product")){
-                                    return  AppUtils.getUrlConfig();
-                                }else{
-                                    switch (env){
-                                        case "test":
-                                            return  hostEntity.getTest();
-                                        case "uat":
-                                        default:
-                                            return  hostEntity.getUat();
-                                    }
+                                String env = TmsLibraryApp.getEnv();
+                                switch (env){
+                                    case "test":
+                                        return  hostEntity.getTest();
+                                    case "uat":
+                                        return  hostEntity.getUat();
+                                    case "product":
+                                    default:
+                                        return  hostEntity.getProduct();
                                 }
                             }
                         }
