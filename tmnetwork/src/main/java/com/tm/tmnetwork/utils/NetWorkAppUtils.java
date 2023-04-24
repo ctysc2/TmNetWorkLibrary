@@ -15,4 +15,8 @@ public class NetWorkAppUtils {
     public static String getTenantId(){
         return PreferenceUtils.getPrefString(TmsLibraryApp.getInstances(),Const.KEY_TENANT_ID,"");
     }
+
+    public static void setTenantId(String tenantId){
+         PreferenceUtils.setPrefString(TmsLibraryApp.getInstances(),Const.KEY_TENANT_ID,tenantId);
+    }
 }

@@ -9,5 +9,6 @@ public class Const {
     public static final String KEY_ENVIRMENT = "key_envirment";
     public static final String KEY_URL_CONFIG = "key_url_config";
     public static final String APPID = "trialos";
-    public static final String KEY_ACCOUNT_ID = "key_account_id";
+    public static final String KEY_ACCOUNT_ID = "accountId";
+    public static final String KEY_TENANT_ID = "tenantId";
 }

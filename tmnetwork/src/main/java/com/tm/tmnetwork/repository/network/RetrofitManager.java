@@ -10,8 +10,8 @@ import com.socks.library.KLog;
 import com.tm.tmnetwork.Const;
 import com.tm.tmnetwork.app.TmsLibraryApp;
 import com.tm.tmnetwork.common.ApiConstants;
-import com.tm.tmnetwork.utils.AppUtils;
 import com.tm.tmnetwork.utils.LogUtils;
+import com.tm.tmnetwork.utils.NetWorkAppUtils;
 import com.tm.tmnetwork.utils.PreferenceUtils;
 import com.tm.tmnetwork.utils.SystemTool;
 
@@ -150,7 +150,8 @@ public class RetrofitManager<T>{
                     .addHeader("TM-Header-device","mobile")
                     .addHeader("TM-Header-AppId", Const.APPID)
                     .addHeader("TM-Header-AppVersion","1.0")
-                    .addHeader("TM-Header-AccountId", AppUtils.getAccountId())
+                    .addHeader("TM-Header-TenantId", NetWorkAppUtils.getTenantId())
+                    .addHeader("TM-Header-AccountId", NetWorkAppUtils.getAccountId())
                     //.addHeader("TM-Header-Environment-Token",environmentToken)
                     .build();
             //request = request.newBuilder().addHeader("Cookie","token="+token).build();
